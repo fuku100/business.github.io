@@ -939,7 +939,7 @@ footer::before {
 
   .teature-text1 h2 {
     position: absolute;
-    top: -400px;
+    top: -120%;
     left: 10px;
   }
 
@@ -963,7 +963,7 @@ footer::before {
 
   .teature-text2 h2 {
     position: absolute;
-    top: -500px;
+    top: -145%;
     right: 20px;
   }
 
@@ -979,7 +979,7 @@ footer::before {
 
   .teature-text3 h2 {
     position: absolute;
-    top: -430px;
+    top: -100%;
     left: 20px;
   }
 
@@ -1197,8 +1197,8 @@ footer::before {
 
   .teature-text1 h2 {
     font-size: 4rem;
-    top: -276px;
-    left: 43%;
+    top: -70%;
+    left: 38%;
   }
 
   .teature2 {
@@ -1212,7 +1212,7 @@ footer::before {
 
   .teature-text2 h2 {
     font-size: 4rem;
-    top: -333px;
+    top: -80%;
     left: 7%;
   }
 
@@ -1230,7 +1230,7 @@ footer::before {
 
   .teature-text3 h2 {
     font-size: 4rem;
-    top: -293px;
+    top: -55%;
     left: 44%;
   }
 
@@ -1294,6 +1294,10 @@ footer::before {
 
   .award img {
     width: 28vw;
+  }
+
+  .marketing {
+    width: 99%;
   }
 
   small {
