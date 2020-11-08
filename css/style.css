@@ -34,6 +34,7 @@
 /* 共通部分------------------------------------------------- */
 html {
   font-size: 100%;
+  width: 100%;
 }
 
 body {
@@ -41,6 +42,8 @@ body {
   line-height: 1.7;
   color: #432;
   user-select: none;
+  width: 100%;
+
 }
 
 a {
@@ -55,6 +58,7 @@ img {
   width: 100%;
   margin: 0 auto;
   padding: 0 4%;
+
 }
 
 /* ハンバーガーメニュー -----------------------------------------------------------*/
@@ -413,7 +417,6 @@ button a:hover {
   border-radius: 50%;
 }
 
-
 /* users------------------------------------- */
 .customer-feedback {
   background-color: #ebf6f7;
@@ -502,6 +505,14 @@ button a:hover {
   margin: 2rem auto;
 }
 
+.award10 {
+  display: flex;
+}
+
+.award20 {
+  display: flex;
+}
+
 .award img {
   width: 140px;
   object-fit: cover;
@@ -559,7 +570,7 @@ button a:hover {
 
 .procedure {
   display: flex;
-  width: 75%;
+  width: 90%;
   margin: 3rem auto;
   justify-content: space-between;
 }
@@ -629,8 +640,10 @@ button a:hover {
 }
 
 .from-here button {
+
   width: 50%;
-  margin: 70px 25.5%;
+  display: block;
+  margin: 45px auto 70px;
 }
 
 .from-here button a {
@@ -638,7 +651,6 @@ button a:hover {
   padding: .8rem;
   line-height: 5.6rem;
 }
-
 
 /* question-------------------------------------- */
 
@@ -1191,7 +1203,7 @@ footer::before {
   .teature-text1 h2 {
     font-size: 3.5rem;
     top: -228px;
-    left:40%;
+    left: 40%;
   }
 
   .teature2 {
@@ -1393,7 +1405,6 @@ footer::before {
     font-size: 1rem;
   }
 
-
   #topbutton {
     bottom: 60px;
     right: 12px;
@@ -1401,7 +1412,7 @@ footer::before {
     font-size: 3rem;
     padding: 4px;
   }
- 
+
   #topbutton span {
     line-height: 3rem;
     font-size: 32px;
