@@ -43,7 +43,6 @@ body {
   color: #432;
   user-select: none;
   width: 100%;
-
 }
 
 a {
@@ -58,7 +57,6 @@ img {
   width: 100%;
   margin: 0 auto;
   padding: 0 4%;
-
 }
 
 /* ハンバーガーメニュー -----------------------------------------------------------*/
@@ -507,6 +505,7 @@ button a:hover {
 
 .award10 {
   display: flex;
+  flex-shrink: 0;
 }
 
 .award20 {
@@ -514,7 +513,7 @@ button a:hover {
 }
 
 .award img {
-  width: 140px;
+  width: 13vw;
   object-fit: cover;
   margin: 0 10px;
 }
@@ -716,7 +715,6 @@ button a:hover {
   margin: 15px 10px;
 }
 
-
 .cssacc:checked+label::after {
   content: '\f106';
   float: right;
@@ -778,6 +776,11 @@ footer::before {
 
 /* pad-------------------------------------------------------------------------- */
 @media screen and (max-width: 959px) {
+
+  #topbutton {
+    bottom: 30px;
+    right: 30px;
+  }
 
   /* ハンバーガーメニュー -----------------------------------------------------------*/
   .open,
@@ -878,16 +881,20 @@ footer::before {
   }
 
   .homeimg {
-    min-width: 700px;
+    width: 70vmax;
   }
 
   .home-content h2 {
     position: absolute;
-    font-size: 3.3rem;
+    font-size: 5vw;
     top: 19%;
-    left: 10%;
+    left: 11%;
     text-align: center;
-    line-height: 4rem;
+    line-height: 6.5vw;
+  }
+
+  .home-content span {
+    font-size: 7.5vw;
   }
 
   /* teature-------------------------------- */
@@ -1008,7 +1015,6 @@ footer::before {
     text-align: start;
   }
 
-
   /* graph
 ------------------------------------------------- */
 
@@ -1021,16 +1027,12 @@ footer::before {
   }
 
   .award {
-    width: 100%;
-    display: flex;
-    margin: .5rem auto;
+    flex-direction: column;
+    align-items: center;
   }
 
   .award img {
-    width: 140px;
-    object-fit: cover;
-    margin: 0;
-    padding: .5rem;
+    width: 15vw;
   }
 
   .award10 {
@@ -1139,8 +1141,8 @@ footer::before {
   }
 
   .home-content h1 {
-    top: 14px;
-    left: 31%;
+    top: 15px;
+    left: 10%;
     height: 44px;
   }
 
@@ -1158,21 +1160,15 @@ footer::before {
     padding-top: 100px;
   }
 
-  .homeimg {
-    width: 100%;
-    min-width: 100%;
-  }
-
   .home-content h2 {
-    font-size: 1.5rem;
+    font-size: 5.5vw;
     top: 19%;
-    left: 13%;
-    line-height: 2rem;
+    left: 16%;
+    line-height: 8vw;
   }
 
   .home-content span {
-    font-size: 2.5rem;
-    margin-right: 2px;
+    font-size: 9vw;
   }
 
   .teature1 {
@@ -1256,7 +1252,6 @@ footer::before {
 
   .user {
     flex-direction: column;
-
   }
 
   .comment p {
@@ -1285,7 +1280,7 @@ footer::before {
     width: 45px;
     height: 45px;
     top: 100%;
-    left: 32%;
+    left: 33%;
     font-size: 1.6rem;
   }
 
@@ -1298,35 +1293,17 @@ footer::before {
   }
 
   .award {
-    flex-direction: column;
-    width: 100%;
-    margin: 3.6rem 0 0;
-  }
-
-  .award10 {
-    display: flex;
-    justify-content: center;
-  }
-
-  .award20 {
-    display: flex;
-    justify-content: center;
+    width: 80%;
+    margin: 4rem auto 1rem;
   }
 
   .award img {
-    width: 110px;
-    object-fit: cover;
-    margin: 10px 10px;
-  }
-
-  .marketing {
-    width: 100%;
+    width: 20vw;
   }
 
   small {
     font-size: 60%;
   }
-
 
   /* .manual------------------------------------------------- */
   .procedure {
