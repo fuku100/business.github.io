@@ -18,7 +18,7 @@ showElementAnimation();
 window.addEventListener('scroll', showElementAnimation);
 
 
-var pics_src = new Array("img/graph1.png", "img/graph2.png", "img/graph4.png", "img/graph3.png");
+var pics_src = new Array("img/graph1.jpg", "img/graph2.jpg", "img/graph4.jpg", "img/graph3.jpg");
 var num = 0;
 
 slideshow_timer();
