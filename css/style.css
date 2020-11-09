@@ -511,17 +511,11 @@ button a:hover {
 }
 
 .award10 {
-  width: 100%;
-  height: auto;
   display: flex;
-  justify-content: center;
   flex-shrink: 0;
 }
 
 .award20 {
-  width: 100%;
-  height: auto;
-  justify-content: center;
   display: flex;
 }
 
