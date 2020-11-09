@@ -506,7 +506,7 @@ button a:hover {
 .award img {
   width: 13vw;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
   margin: 0 10px;
 }
 
