@@ -197,7 +197,7 @@ button a:hover {
 .teature-text1 {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 38%;
   align-items: center;
   padding: 0% 4%;
 }
@@ -280,7 +280,7 @@ button a:hover {
 .teature-text2 {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 38%;
   align-items: center;
   padding: 0% 4%;
   order: 1;
@@ -355,7 +355,7 @@ button a:hover {
 .teature-text3 {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 38%;
   align-items: center;
   padding: 0% 4%;
 }
