@@ -1037,6 +1037,7 @@ footer::before {
 
   .award img {
     width: 22vw;
+    object-fit: contain;
   }
 
   .award10 {
