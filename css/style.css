@@ -1303,6 +1303,7 @@ footer::before {
 
   .award img {
     width: 26vw;
+    object-fit: cover;
   }
 
   .marketing {
