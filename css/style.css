@@ -118,8 +118,8 @@ button {
   background-color: #7fd9d2;
   font-size: 1.2rem;
   width: 136px;
-  margin: 0.95rem;
   border-radius: 4px;
+  margin: 0.95rem;
   box-shadow: 0 2px 4px #cccccc;
 }
 
@@ -806,7 +806,7 @@ footer::before {
     height: 100%;
     flex-direction: column;
     justify-content: flex-start;
-    transition: all .2s;
+    transition: all .3s;
     z-index: 10;
   }
 
@@ -938,9 +938,10 @@ footer::before {
   }
 
   .teature-text1 h2 {
+    font-size: 14vw;
     position: absolute;
-    top: -120%;
-    left: 10px;
+    top: -50vw;
+    left: 6%;
   }
 
   .teature2 {
@@ -962,9 +963,10 @@ footer::before {
   }
 
   .teature-text2 h2 {
+    font-size: 14vw;
     position: absolute;
-    top: -145%;
-    right: 20px;
+    top: -65vw;
+    right: 3vw;
   }
 
   .teature3 {
@@ -978,9 +980,10 @@ footer::before {
   }
 
   .teature-text3 h2 {
+    font-size: 14vw;
     position: absolute;
-    top: -100%;
-    left: 20px;
+    top: -55vw;
+    left: 3vw;
   }
 
   /* .customer-feedback------------------------- */
@@ -1138,12 +1141,12 @@ footer::before {
 
   .open {
     top: 16px;
-    left: 37px;
+    left: 16px;
   }
 
   .home-content h1 {
     top: 15px;
-    left: 37%;
+    left: 33%;
     height: 44px;
   }
 
@@ -1176,6 +1179,12 @@ footer::before {
     margin: 100px auto;
   }
 
+  .teature-text1,
+  .teature-text2,
+  .teature-text3 {
+    width: 100%;
+  }
+
   .teature-text1 h3,
   .teature-text2 h3,
   .teature-text3 h3 {
@@ -1196,9 +1205,9 @@ footer::before {
   }
 
   .teature-text1 h2 {
-    font-size: 4rem;
-    top: -70%;
-    left: 38%;
+    font-size: 5rem;
+    top: -270px;
+    left: 40%;
   }
 
   .teature2 {
@@ -1212,15 +1221,14 @@ footer::before {
 
   .teature-text2 h2 {
     font-size: 4rem;
-    top: -80%;
-    left: 7%;
+    top: -280px;
+    right: 41%;
   }
 
   .teature-text2 button {
-    font-size: 1rem;
+    margin-right: .4rem;
+    margin-left: .4rem;
     width: 160px;
-    line-height: 3rem;
-    margin-top: .5rem;
   }
 
   .teature3::after {
@@ -1230,8 +1238,8 @@ footer::before {
 
   .teature-text3 h2 {
     font-size: 4rem;
-    top: -55%;
-    left: 44%;
+    top: -245px;
+    left: 41%;
   }
 
   .teature3 {
