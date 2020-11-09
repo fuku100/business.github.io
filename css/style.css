@@ -1043,7 +1043,8 @@ footer::before {
   }
 
   .award img {
-    width: 22vw;
+    width: 168px;
+    height: 168px;
   }
 
   .award10 {
@@ -1308,7 +1309,9 @@ footer::before {
   }
 
   .award img {
-    width: 26vw;
+    width: 92px;
+    height: 92px;
+    object-fit: contain;
   }
 
   .marketing {
