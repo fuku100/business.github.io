@@ -503,19 +503,24 @@ button a:hover {
   margin: 2rem auto;
 }
 
+.award img {
+  width: 13vw;
+  height: auto;
+  object-fit: contain;
+  margin: 0 10px;
+}
+
 .award10 {
+  width: 100%;
   display: flex;
+  justify-content: center;
   flex-shrink: 0;
 }
 
 .award20 {
+  width: 100%;
+  justify-content: center;
   display: flex;
-}
-
-.award img {
-  width: 13vw;
-  object-fit: cover;
-  margin: 0 10px;
 }
 
 .marketing {
@@ -1037,7 +1042,6 @@ footer::before {
 
   .award img {
     width: 22vw;
-    object-fit: contain;
   }
 
   .award10 {
@@ -1303,7 +1307,6 @@ footer::before {
 
   .award img {
     width: 26vw;
-    object-fit: cover;
   }
 
   .marketing {
